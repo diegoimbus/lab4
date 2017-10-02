@@ -1,0 +1,33 @@
+page-login {
+    .login-title {
+        font-family: air;
+        color: white;
+        font-size: 4em;
+    
+    }
+
+    .login-main {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+    }
+
+    .login-bg {
+        //estilos para poner una imagen de fondo como center crop
+        background-image: url("../../assets/images/fondo.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+    }
+
+    .text-input-wp{
+        border-color: white;
+    }
+}

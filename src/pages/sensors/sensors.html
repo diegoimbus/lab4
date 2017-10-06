@@ -1,0 +1,54 @@
+<ion-header>
+  
+    <ion-navbar color="primary">
+      <button ion-button menuToggle icon-only>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title class="title">Sensores</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding>
+    <ion-row>
+        <ion-col>
+            <ion-card>
+                
+                <ion-card-content>
+                  <ion-card-title>
+                    Progreso
+                  </ion-card-title>
+                  <div>
+
+                    <progress-bar [progress]=50></progress-bar>
+                  </div>
+                  <div>
+
+
+                    </div>
+                </ion-card-content>
+              </ion-card>
+              <ion-item>
+                <ion-label><ion-icon name="alert"></ion-icon>Tapa Abierta</ion-label>
+                <ion-toggle value="foo" color="danger"></ion-toggle>
+              </ion-item>
+          
+              <ion-item>
+                <ion-label><ion-icon name="thermometer"></ion-icon>Temperatura</ion-label>
+                <ion-toggle color="dark" checked="true"></ion-toggle>
+              </ion-item>
+          
+              <ion-item>
+                <ion-label><ion-icon name="water"></ion-icon>Humedad</ion-label>
+                <ion-toggle color="primary" checked="true"></ion-toggle>
+              </ion-item>
+        </ion-col>
+    </ion-row>
+  
+
+  
+  
+  
+      
+  </ion-content>

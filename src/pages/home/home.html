@@ -4,10 +4,11 @@
       <ion-list-header>
         Menu
       </ion-list-header>
-      
+      <button menuClose ion-item *ngFor="let m of menuOpc; index as i" (click)="setContent(i)"><ion-icon margin-right [name]="m.icon"></ion-icon>{{m.label}}</button>
+
     
     
-      <ion-list-header>Perfil</ion-list-header>
+      <ion-list-header>Cuenta</ion-list-header>
       <button ion-item (click)="logout()"> <ion-icon name="md-exit" margin-right></ion-icon>Cerrar sesión</button>
     </ion-list>
   </ion-menu>
